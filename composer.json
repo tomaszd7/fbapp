@@ -1,0 +1,11 @@
+{
+    "require": {
+        "facebook/graph-sdk": "^5.6",
+        "silex/silex": "^2.2",
+        "symfony/debug": "^3.3",
+        "symfony/twig-bridge": "~2.3"
+    },
+    "autoload": {
+     "psr-4": {"Mysrc\\": "src/"}
+    }
+}

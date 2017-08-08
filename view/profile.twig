@@ -1,0 +1,10 @@
+{% extends 'main.twig' %}
+{% block main %}
+	    <div>
+			<p>
+			{% for key, value in data %}
+				{{ key }} is: {{ value }}</br>
+			{% endfor %}
+			</p>
+		</div>
+{% endblock %}
